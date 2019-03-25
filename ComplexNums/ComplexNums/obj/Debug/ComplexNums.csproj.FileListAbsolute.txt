@@ -1,0 +1,7 @@
+C:\Users\Edit-5\source\repos\ComplexNums\ComplexNums\bin\Debug\ComplexNums.exe.config
+C:\Users\Edit-5\source\repos\ComplexNums\ComplexNums\bin\Debug\ComplexNums.exe
+C:\Users\Edit-5\source\repos\ComplexNums\ComplexNums\bin\Debug\ComplexNums.pdb
+C:\Users\Edit-5\source\repos\ComplexNums\ComplexNums\obj\Debug\ComplexNums.csprojAssemblyReference.cache
+C:\Users\Edit-5\source\repos\ComplexNums\ComplexNums\obj\Debug\ComplexNums.csproj.CoreCompileInputs.cache
+C:\Users\Edit-5\source\repos\ComplexNums\ComplexNums\obj\Debug\ComplexNums.exe
+C:\Users\Edit-5\source\repos\ComplexNums\ComplexNums\obj\Debug\ComplexNums.pdb
