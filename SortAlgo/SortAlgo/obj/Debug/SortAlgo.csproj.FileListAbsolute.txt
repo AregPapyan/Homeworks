@@ -1,0 +1,7 @@
+C:\Users\Edit-5\source\repos\SortAlgo\SortAlgo\bin\Debug\SortAlgo.exe.config
+C:\Users\Edit-5\source\repos\SortAlgo\SortAlgo\bin\Debug\SortAlgo.exe
+C:\Users\Edit-5\source\repos\SortAlgo\SortAlgo\bin\Debug\SortAlgo.pdb
+C:\Users\Edit-5\source\repos\SortAlgo\SortAlgo\obj\Debug\SortAlgo.csprojAssemblyReference.cache
+C:\Users\Edit-5\source\repos\SortAlgo\SortAlgo\obj\Debug\SortAlgo.csproj.CoreCompileInputs.cache
+C:\Users\Edit-5\source\repos\SortAlgo\SortAlgo\obj\Debug\SortAlgo.exe
+C:\Users\Edit-5\source\repos\SortAlgo\SortAlgo\obj\Debug\SortAlgo.pdb
