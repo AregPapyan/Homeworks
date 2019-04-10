@@ -1,0 +1,7 @@
+C:\Users\Edit-5\source\repos\Practic\Practic\bin\Debug\Practic.exe.config
+C:\Users\Edit-5\source\repos\Practic\Practic\bin\Debug\Practic.exe
+C:\Users\Edit-5\source\repos\Practic\Practic\bin\Debug\Practic.pdb
+C:\Users\Edit-5\source\repos\Practic\Practic\obj\Debug\Practic.csprojAssemblyReference.cache
+C:\Users\Edit-5\source\repos\Practic\Practic\obj\Debug\Practic.csproj.CoreCompileInputs.cache
+C:\Users\Edit-5\source\repos\Practic\Practic\obj\Debug\Practic.exe
+C:\Users\Edit-5\source\repos\Practic\Practic\obj\Debug\Practic.pdb
