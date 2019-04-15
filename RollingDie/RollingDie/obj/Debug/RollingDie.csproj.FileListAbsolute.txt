@@ -1,0 +1,7 @@
+C:\Users\Edit-5\source\repos\RollingDie\RollingDie\bin\Debug\RollingDie.exe.config
+C:\Users\Edit-5\source\repos\RollingDie\RollingDie\bin\Debug\RollingDie.exe
+C:\Users\Edit-5\source\repos\RollingDie\RollingDie\bin\Debug\RollingDie.pdb
+C:\Users\Edit-5\source\repos\RollingDie\RollingDie\obj\Debug\RollingDie.csprojAssemblyReference.cache
+C:\Users\Edit-5\source\repos\RollingDie\RollingDie\obj\Debug\RollingDie.csproj.CoreCompileInputs.cache
+C:\Users\Edit-5\source\repos\RollingDie\RollingDie\obj\Debug\RollingDie.exe
+C:\Users\Edit-5\source\repos\RollingDie\RollingDie\obj\Debug\RollingDie.pdb
