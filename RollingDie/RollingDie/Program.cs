@@ -15,34 +15,27 @@ namespace RollingDie
 			int num,sum=0;
 			List<int> DieNumsList = new List<int>();
 			Random rnd = new Random();
-			for (int i = 1; i <= n; i++)
+			for (int i = 0; i < n; i++)
 			{
 				num = rnd.Next(1, 7);
 				Console.WriteLine(num);
 				DieNumsList.Add(num);
-				if (i > 1)
+				if (i > 0)
 				{
-					if (DieNumsList[i - 2] == num && num == 4)
+					if (DieNumsList[i - 1] == num && num == 4)
 					{
 						amount++;
 						TwoFours();
 					}
 				}
-				if (i < 5)
+				if (i < 4)
 				{
 					sum += num;
-				}
-				else if (i == 5)
-				{
-					sum += num;
-					if (sum >= 20)
-					{
-						SumMoreTwenty();
-					}
 				}
 				else
 				{
-					sum -= DieNumsList[i - 6];
+					if(i>4)
+						sum -= DieNumsList[i - 5];
 					sum += num;
 					if (sum >= 20)
 					{
@@ -67,6 +60,7 @@ namespace RollingDie
 		{
 			Console.WriteLine("Enter the number of tosses");
 			int n = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("..........................");
 			Evs evnt = new Evs();
 			evnt.TwoFours += TwoFoursPrinter;
 			evnt.SumMoreTwenty += SumMoreTwentyPrinter;
