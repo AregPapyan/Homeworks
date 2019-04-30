@@ -1,46 +1,48 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace Practic
 {
-	class Actions
-	{
-		public static int counter = 0;
-		private int num;
-		public delegate void Act(object source,EventArgs args);
-		public event Act SomeEvent;
-		public void Printer(object source, EventArgs args)
-		{
-			Console.WriteLine("New Random Number!!");
-		}
-		public void NumPrinter(object source, EventArgs args)
-		{
-			Console.WriteLine($"The number is {this.num}");
-		}
-		public void Generator(object source, EventArgs args)
-		{
-			Random rnd = new Random();
-			this.num = rnd.Next(1, 11);
-		}
-		
-		public  void OnSomeEvent()
-		{
-			SomeEvent(this, EventArgs.Empty);
-		}
-	}
-	class Program
-	{
+    class Actions
+    {
+        
+        public delegate void Act(int args);
+        public event Act OnEvenNumberFound;
+
+        public void Generator()
+        {
+            int num = 0;
+            Random rnd = new Random();            
+            while(true)
+            {
+                num = rnd.Next(0, 1000000);
+                Console.WriteLine(num);
+                if(num%2==0)
+                {
+                    if(this.OnEvenNumberFound != null)
+                    {
+                        this.OnEvenNumberFound(num);
+                    }
+                }
+                Thread.Sleep(1000);
+            }
+            
+        }
+    }
+    class Program
+    {
+        public static void Printer(int x)
+        {
+            Console.WriteLine($"New even Random Number!! {x}");
+        }        
+        
         static void Main(string[] args)
         {
-			Actions a = new Actions();
-			a.SomeEvent += a.Generator;
-			a.SomeEvent += a.Printer;
-			a.SomeEvent += a.NumPrinter;
-			a.OnSomeEvent();
-			Console.ReadKey();
+
+            Actions a = new Actions();
+            a.OnEvenNumberFound += Printer;
+            a.Generator();
+            Console.ReadKey();
         }
     }
 }
