@@ -1,0 +1,7 @@
+C:\Users\Edit-5\source\repos\MyListRealization\MyListRealization\bin\Debug\MyListRealization.exe.config
+C:\Users\Edit-5\source\repos\MyListRealization\MyListRealization\bin\Debug\MyListRealization.exe
+C:\Users\Edit-5\source\repos\MyListRealization\MyListRealization\bin\Debug\MyListRealization.pdb
+C:\Users\Edit-5\source\repos\MyListRealization\MyListRealization\obj\Debug\MyListRealization.csprojAssemblyReference.cache
+C:\Users\Edit-5\source\repos\MyListRealization\MyListRealization\obj\Debug\MyListRealization.csproj.CoreCompileInputs.cache
+C:\Users\Edit-5\source\repos\MyListRealization\MyListRealization\obj\Debug\MyListRealization.exe
+C:\Users\Edit-5\source\repos\MyListRealization\MyListRealization\obj\Debug\MyListRealization.pdb
