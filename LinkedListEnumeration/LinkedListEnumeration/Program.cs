@@ -64,9 +64,13 @@ namespace Enumerators
 		public bool MoveNext()
 		{
 			Node head = this.first;
+			if (head == null)
+				return false;
 			for (int i = 0; i < position; i++)
 			{
 				head = head.next;
+				if (head == null)
+					return false;
 			}
 			if (head.next == null)
 				return false;
