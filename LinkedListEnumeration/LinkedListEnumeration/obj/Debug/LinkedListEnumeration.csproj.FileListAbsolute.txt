@@ -1,0 +1,7 @@
+C:\Users\Edit-5\source\repos\LinkedListEnumeration\LinkedListEnumeration\bin\Debug\LinkedListEnumeration.exe.config
+C:\Users\Edit-5\source\repos\LinkedListEnumeration\LinkedListEnumeration\bin\Debug\LinkedListEnumeration.exe
+C:\Users\Edit-5\source\repos\LinkedListEnumeration\LinkedListEnumeration\bin\Debug\LinkedListEnumeration.pdb
+C:\Users\Edit-5\source\repos\LinkedListEnumeration\LinkedListEnumeration\obj\Debug\LinkedListEnumeration.csprojAssemblyReference.cache
+C:\Users\Edit-5\source\repos\LinkedListEnumeration\LinkedListEnumeration\obj\Debug\LinkedListEnumeration.csproj.CoreCompileInputs.cache
+C:\Users\Edit-5\source\repos\LinkedListEnumeration\LinkedListEnumeration\obj\Debug\LinkedListEnumeration.exe
+C:\Users\Edit-5\source\repos\LinkedListEnumeration\LinkedListEnumeration\obj\Debug\LinkedListEnumeration.pdb
