@@ -46,49 +46,46 @@ namespace Enumerators
 	class NodeEnumerator : IEnumerator
 	{
 		private Node first;
-		private int position = -1;
+		//		private int position = -1;
 		public object Current
 		{
-			get
-			{
-				Node head = this.first;
-				for (int i = 0; i < position; i++)
-				{
-					head = head.next;
-				}
-				return head;
-			}
+			get;
+			private set;
 		}
 
 
 		public bool MoveNext()
 		{
-			Node head = this.first;
-			if (head == null)
-				return false;
-			for (int i = 0; i < position; i++)
-			{
-				head = head.next;
-				if (head == null)
-					return false;
-			}
-			if (head.next == null)
+			//Node head = this.first;
+			//for (int i = 0; i < position; i++)
+			//{
+			//	head = head.next;
+			//}
+			//if (head.next == null)
+			//	return false;
+			//else
+			//{
+			//	position++;
+			//	return true;
+			//}
+			if (this.first == null)
 				return false;
 			else
 			{
-				position++;
+				this.Current = this.first;
+				this.first = this.first.next;
 				return true;
 			}
 		}
 
 		public void Reset()
 		{
-			position = -1;
+
 		}
 
 		public NodeEnumerator(Node first)
 		{
-			this.first = first;
+			this.first = first;			
 		}
 	}
 	class Program
@@ -96,15 +93,16 @@ namespace Enumerators
 		static void Main(string[] args)
 		{
 			Node prior = new Node(100);
-			prior.Add(90);
-			prior.Add(80);
-			prior.Add(70);
-			prior.Add(60);
-			prior.Add(50);
-			prior.Add(40);
-			prior.Add(30);
-			prior.Add(20);
-			prior.Add(10);
+			prior.Add(99);
+			prior.Add(88);
+			prior.Add(77);
+			prior.Add(66);
+			prior.Add(55);
+			prior.Add(44);
+			prior.Add(33);
+			prior.Add(22);
+			prior.Add(11);
+			prior.Add(0);
 			//prior.PrintNode();
 			foreach (Node item in prior)
 			{
